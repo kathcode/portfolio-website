@@ -20,14 +20,26 @@ export default function Contact() {
     setIsSubmitting(true);
     setSubmitStatus({ type: null, message: '' });
 
-    // Simulate form submission - replace with actual API call
     try {
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-      setSubmitStatus({
-        type: 'success',
-        message: 'Thank you for your message! I\'ll get back to you soon.',
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
       });
-      setFormData({ name: '', email: '', subject: '', message: '' });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        setSubmitStatus({
+          type: 'success',
+          message: 'Thank you for your message! I\'ll get back to you soon.',
+        });
+        setFormData({ name: '', email: '', subject: '', message: '' });
+      } else {
+        throw new Error(data.error || 'Failed to send message');
+      }
     } catch (error) {
       setSubmitStatus({
         type: 'error',
