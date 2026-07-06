@@ -62,7 +62,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://github.com/catalinamcarmona"
+                href="https://github.com/kathcode"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors"
@@ -73,7 +73,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://linkedin.com/in/catalinamcarmona"
+                href="https://www.linkedin.com/in/catalina-m-055a8b46/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors"

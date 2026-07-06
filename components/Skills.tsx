@@ -2,19 +2,19 @@ export default function Skills() {
   const skillCategories = [
     {
       category: 'Languages',
-      skills: ['JavaScript (ES6+)', 'TypeScript', 'HTML5', 'CSS3', 'Python'],
+      skills: ['JavaScript', 'TypeScript', 'Python', 'Node.js'],
     },
     {
       category: 'Frameworks & Libraries',
-      skills: ['React', 'Vite', 'Next.js', 'Vue', 'Angular', 'Redux', 'RxJS', 'NgRx'],
+      skills: ['React', 'Next.js', 'Vue', 'Angular', 'AngularJS', 'Redux', 'RxJS', 'NgRx', 'Vite'],
+    },
+    {
+      category: 'Cloud & DevOps',
+      skills: ['AWS', 'Jenkins', 'CI/CD', 'Infrastructure as Code (IaC)', 'OnePipeline'],
     },
     {
       category: 'Testing & Tooling',
       skills: ['Jest', 'React Testing Library', 'Vitest', 'Vite'],
-    },
-    {
-      category: 'Back-end',
-      skills: ['Node.js', 'ExpressJS'],
     },
     {
       category: 'Soft Skills',

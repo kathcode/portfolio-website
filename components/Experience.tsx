@@ -1,9 +1,21 @@
 export default function Experience() {
   const experiences = [
     {
+      title: 'Cloud Full Stack Developer Engineer',
+      company: 'IBM Payments Center · IPC Wire Service',
+      period: 'January 2026 - Present',
+      location: 'Toronto, Ontario, Canada · Remote',
+      highlights: [
+        'Modern Full-Stack Development: Design, implement, and optimize core features and user interfaces utilizing React, Next.js and Python, ensuring seamless user experiences and optimal frontend performance.',
+        'Cloud Infrastructure & AWS Automation: Maintain and monitor enterprise AWS environments using Cloud Foundation to guarantee high availability. Lead automated Infrastructure as Code (IaC) deployments leveraging Python and corporate CI/CD tooling—including Jenkins and OnePipeline—to ensure secure, scalable, and compliant production environments.',
+        'DevOps & CI/CD Pipelines: Support and streamline continuous integration and continuous deployment pipelines using Jenkins, automating workflows to accelerate delivery cycles and reduce production bugs.',
+      ],
+      tech: ['React', 'Next.js', 'Python', 'AWS', 'Jenkins', 'CI/CD'],
+    },
+    {
       title: 'Senior Application Developer & Tech Lead',
       company: 'IBM Payments Center',
-      period: 'October 2022 - Present',
+      period: 'October 2022 - December 2025',
       location: 'Toronto, Canada',
       highlights: [
         'Spearheaded the development of a new UI platform from scratch for the IBM Payments Center, supporting the Payments Canada RTR C&S and Open Payments Marketplace (OPM) initiatives',

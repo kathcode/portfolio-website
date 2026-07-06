@@ -14,6 +14,19 @@ export default function Hero() {
           Passionate about bringing new ideas to life and creating solutions that
           solve real-world problems.
         </p>
+        <div className="flex flex-wrap gap-2 justify-center mb-10 max-w-3xl mx-auto">
+          {[
+            'JavaScript', 'TypeScript', 'Python', 'React', 'Next.js', 'Vue',
+            'Angular', 'Redux', 'Node.js', 'AWS', 'Jenkins', 'CI/CD',
+          ].map((skill) => (
+            <span
+              key={skill}
+              className="px-3 py-1 bg-white text-blue-700 border border-blue-200 rounded-full text-sm font-medium shadow-sm"
+            >
+              {skill}
+            </span>
+          ))}
+        </div>
         <div className="flex gap-4 justify-center items-center flex-wrap">
           <a
             href="#contact"
